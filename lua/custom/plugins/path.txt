@@ -1,1 +1,0 @@
-/home/corincraciun/.config/nvim/lua/custom/plugins
