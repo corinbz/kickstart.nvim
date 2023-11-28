@@ -241,6 +241,7 @@ vim.o.hlsearch = false
 
 -- Make line numbers default
 vim.wo.number = true
+vim.o.relativenumber = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
@@ -250,6 +251,9 @@ vim.o.mouse = 'a'
 --  See `:help 'clipboard'`
 vim.o.clipboard = 'unnamedplus'
 
+--shift width
+vim.o.shiftwidth = 4
+vim.o.tabstop = 4
 -- Enable break indent
 vim.o.breakindent = true
 
